@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountingSystem.Core", "src\AccountingSystem.Core\AccountingSystem.Core.csproj", "{A1B2C3D4-E5F6-47G8-9I0J-1K2L3M4N5O6P}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountingSystem.Data", "src\AccountingSystem.Data\AccountingSystem.Data.csproj", "{B2C3D4E5-F6G7-48H9-0I1J-2K3L4M5N6O7P}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountingSystem.Services", "src\AccountingSystem.Services\AccountingSystem.Services.csproj", "{C3D4E5F6-G7H8-49I0-1J2K-3L4M5N6O7P8Q}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountingSystem.API", "src\AccountingSystem.API\AccountingSystem.API.csproj", "{D4E5F6G7-H8I9-40J1-2K3L-4M5N6O7P8Q9R}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountingSystem.Common", "src\AccountingSystem.Common\AccountingSystem.Common.csproj", "{E5F6G7H8-I9J0-41K2-3L4M-5N6O7P8Q9R0S}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountingSystem.Tests", "tests\AccountingSystem.Tests\AccountingSystem.Tests.csproj", "{F6G7H8I9-J0K1-42L3-4M5N-6O7P8Q9R0S1T}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B2C3D4-E5F6-47G8-9I0J-1K2L3M4N5O6P}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-47G8-9I0J-1K2L3M4N5O6P}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-47G8-9I0J-1K2L3M4N5O6P}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-47G8-9I0J-1K2L3M4N5O6P}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C3D4E5-F6G7-48H9-0I1J-2K3L4M5N6O7P}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C3D4E5-F6G7-48H9-0I1J-2K3L4M5N6O7P}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C3D4E5-F6G7-48H9-0I1J-2K3L4M5N6O7P}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C3D4E5-F6G7-48H9-0I1J-2K3L4M5N6O7P}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D4E5F6-G7H8-49I0-1J2K-3L4M5N6O7P8Q}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D4E5F6-G7H8-49I0-1J2K-3L4M5N6O7P8Q}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D4E5F6-G7H8-49I0-1J2K-3L4M5N6O7P8Q}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D4E5F6-G7H8-49I0-1J2K-3L4M5N6O7P8Q}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E5F6G7-H8I9-40J1-2K3L-4M5N6O7P8Q9R}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E5F6G7-H8I9-40J1-2K3L-4M5N6O7P8Q9R}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E5F6G7-H8I9-40J1-2K3L-4M5N6O7P8Q9R}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E5F6G7-H8I9-40J1-2K3L-4M5N6O7P8Q9R}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F6G7H8-I9J0-41K2-3L4M-5N6O7P8Q9R0S}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F6G7H8-I9J0-41K2-3L4M-5N6O7P8Q9R0S}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F6G7H8-I9J0-41K2-3L4M-5N6O7P8Q9R0S}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F6G7H8-I9J0-41K2-3L4M-5N6O7P8Q9R0S}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6G7H8I9-J0K1-42L3-4M5N-6O7P8Q9R0S1T}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6G7H8I9-J0K1-42L3-4M5N-6O7P8Q9R0S1T}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6G7H8I9-J0K1-42L3-4M5N-6O7P8Q9R0S1T}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6G7H8I9-J0K1-42L3-4M5N-6O7P8Q9R0S1T}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
